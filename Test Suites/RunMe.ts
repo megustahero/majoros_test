@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Basic test suite for test</description>
+   <name>RunMe</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-08-16T13:02:43</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>7196b138-9d01-4626-85d6-2fd60139b2ba</testSuiteGuid>
+   <testCaseLink>
+      <guid>05ddbf6d-d76c-49f9-91da-0a4adbcd65b9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShouldAssertSuccessfulAndFailedLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>442c5987-99dc-4531-8717-3b5a08b2b08d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/LoginAccounts</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>442c5987-99dc-4531-8717-3b5a08b2b08d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>d25397fe-11b4-408a-bde3-59683c8ca749</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>442c5987-99dc-4531-8717-3b5a08b2b08d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>236cac32-c1ff-478d-bdbf-dd7d925bc6b4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58c26d47-e3b3-4236-beac-8084f384ec7a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ClickLinksAndVerifyTexts</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dea9f078-4f76-4cea-b78c-414bde063a32</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/NamesUnderLinks/XmlNames</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9c6cb24f-b4d7-4d91-a377-ceb19d3d2227</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/NamesUnderLinks/JsonNames</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>dea9f078-4f76-4cea-b78c-414bde063a32</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>b9b551e9-2ab5-408b-979e-b2e27baad94d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9c6cb24f-b4d7-4d91-a377-ceb19d3d2227</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>24333869-b0aa-4ed3-914a-fdc54a9b4e2f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0ec3cc0-7498-4cb8-bf43-b36261cc5af2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TableAdvancedRead</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a6792087-58c0-45c9-9f9a-0282ca12a1a6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Table/Quarter</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bc8eacdf-4e6b-4ab9-bd06-834f81484cdb</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Table/Year</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>bc8eacdf-4e6b-4ab9-bd06-834f81484cdb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Year</value>
+         <variableId>f8ec4ccd-0104-4b79-b9b1-81e89f2ce739</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6792087-58c0-45c9-9f9a-0282ca12a1a6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Quarter</value>
+         <variableId>cd64ee34-ef25-441d-89e3-0c9e0c6635dc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

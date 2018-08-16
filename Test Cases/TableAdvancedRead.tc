@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TableAdvancedRead</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80b46967-a0cc-426a-b8f2-112b8b3855a2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f8ec4ccd-0104-4b79-b9b1-81e89f2ce739</id>
+      <masked>false</masked>
+      <name>year</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd64ee34-ef25-441d-89e3-0c9e0c6635dc</id>
+      <masked>false</masked>
+      <name>quarter</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tests different types of links.</description>
+   <name>ClickLinksAndVerifyTexts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2fc91bce-efc5-4587-9850-5e982c8eae4b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b9b551e9-2ab5-408b-979e-b2e27baad94d</id>
+      <masked>false</masked>
+      <name>xml_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24333869-b0aa-4ed3-914a-fdc54a9b4e2f</id>
+      <masked>false</masked>
+      <name>json_name</name>
+   </variable>
+</TestCaseEntity>

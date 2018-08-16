@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic" time="44" tests="4" failures="3" errors="0">
+   <testsuite name="Basic" tests="4" failures="3" errors="0" time="44" timestamp="2018-08-16 13:02:45" hostname="User - DESKTOP-RPPH2D7" id="Test Suites/Basic">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\majoros_test\\Reports\\Basic\\20180816_130243"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\majoros_test\\Reports\\Basic\\20180816_130243\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\majoros_test\\Reports\\Basic\\20180816_130243\\1534417385193.png, C:\\Users\\User\\git\\majoros_test\\Reports\\Basic\\20180816_130243\\1534417390658.png, C:\\Users\\User\\git\\majoros_test\\Reports\\Basic\\20180816_130243\\1534417396165.png"/>
+         <property name="hostName" value="User - DESKTOP-RPPH2D7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.0.19"/>
+         <property name="sessionId" value="711e438e-28d5-4c0e-bcb5-e0d8a712318b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ShouldAssertSuccessfulAndFailedLogin" classname="Test Cases/ShouldAssertSuccessfulAndFailedLogin" status="PASSED">
+         <system-out><![CDATA[2018-08-16 13:02:46 - [TEST_CASE][PASSED] - Test Cases/ShouldAssertSuccessfulAndFailedLogin: Test Cases/ShouldAssertSuccessfulAndFailedLogin
+
+2018-08-16 13:02:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 13:02:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 13:02:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://testing-ground.scraping.pro/login' successfully
+
+2018-08-16 13:02:52 - [MESSAGE][PASSED] - Navigate to 'http://testing-ground.scraping.pro/login' successfully
+
+2018-08-16 13:02:52 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/LoginPage/input_usr'
+
+2018-08-16 13:02:52 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginPage/input_usr'
+
+2018-08-16 13:02:52 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/LoginPage/input_pwd'
+
+2018-08-16 13:02:52 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/LoginPage/input_pwd'
+
+2018-08-16 13:02:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/input' is clicked on
+
+2018-08-16 13:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/input' is clicked on
+
+2018-08-16 13:02:53 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(LoginPage/h3)) == "WELCOME :)"): Successful login
+
+2018-08-16 13:02:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/h3' is: 'WELCOME :)'
+
+2018-08-16 13:02:53 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markPassed("Successful login"): Successful login
+
+2018-08-16 13:02:53 - [MESSAGE][PASSED] - Successful login
+
+2018-08-16 13:02:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-16 13:02:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ShouldAssertSuccessfulAndFailedLogin" classname="Test Cases/ShouldAssertSuccessfulAndFailedLogin" status="PASSED">
+         <system-out><![CDATA[2018-08-16 13:02:54 - [TEST_CASE][PASSED] - Test Cases/ShouldAssertSuccessfulAndFailedLogin: Test Cases/ShouldAssertSuccessfulAndFailedLogin
+
+2018-08-16 13:02:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 13:02:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 13:02:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://testing-ground.scraping.pro/login' successfully
+
+2018-08-16 13:02:58 - [MESSAGE][PASSED] - Navigate to 'http://testing-ground.scraping.pro/login' successfully
+
+2018-08-16 13:02:58 - [TEST_STEP][PASSED] - setText: Text 'johndoe' is set on object 'Object Repository/LoginPage/input_usr'
+
+2018-08-16 13:02:59 - [MESSAGE][PASSED] - Text 'johndoe' is set on object 'Object Repository/LoginPage/input_usr'
+
+2018-08-16 13:02:59 - [TEST_STEP][PASSED] - setText: Text 'TotallyNotAPassword' is set on object 'Object Repository/LoginPage/input_pwd'
+
+2018-08-16 13:02:59 - [MESSAGE][PASSED] - Text 'TotallyNotAPassword' is set on object 'Object Repository/LoginPage/input_pwd'
+
+2018-08-16 13:02:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/input' is clicked on
+
+2018-08-16 13:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/input' is clicked on
+
+2018-08-16 13:02:59 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(LoginPage/h3)) == "WELCOME :)"): Text of object 'Object Repository/LoginPage/h3' is: 'ACCESS DENIED!'
+
+2018-08-16 13:02:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/LoginPage/h3' is: 'ACCESS DENIED!'
+
+2018-08-16 13:02:59 - [TEST_STEP][PASSED] - Statement - Else: Failed login
+
+2018-08-16 13:02:59 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markPassed("Failed login"): Failed login
+
+2018-08-16 13:02:59 - [MESSAGE][PASSED] - Failed login
+
+2018-08-16 13:02:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-16 13:03:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ClickLinksAndVerifyTexts" classname="Test Cases/ClickLinksAndVerifyTexts" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-08-16 13:03:00 - [TEST_CASE][FAILED] - Test Cases/ClickLinksAndVerifyTexts: Test Cases/ClickLinksAndVerifyTexts FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 13:03:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 13:03:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 13:03:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://testing-ground.scraping.pro/ajax' successfully
+
+2018-08-16 13:03:04 - [MESSAGE][PASSED] - Navigate to 'http://testing-ground.scraping.pro/ajax' successfully
+
+2018-08-16 13:03:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AjaxPage/XML' is clicked on
+
+2018-08-16 13:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AjaxPage/XML' is clicked on
+
+2018-08-16 13:03:05 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 13:03:05 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2018-08-16 13:03:05 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-08-16 13:03:05 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\User\\git\\majoros_test\\Reports\\Basic\\20180816_130243\\1534417385193.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-16 13:03:00 - [TEST_CASE][FAILED] - Test Cases/ClickLinksAndVerifyTexts: Test Cases/ClickLinksAndVerifyTexts FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ClickLinksAndVerifyTexts" classname="Test Cases/ClickLinksAndVerifyTexts" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-08-16 13:03:05 - [TEST_CASE][FAILED] - Test Cases/ClickLinksAndVerifyTexts: Test Cases/ClickLinksAndVerifyTexts FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 13:03:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 13:03:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-16 13:03:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 13:03:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://testing-ground.scraping.pro/ajax' successfully
+
+2018-08-16 13:03:10 - [MESSAGE][PASSED] - Navigate to 'http://testing-ground.scraping.pro/ajax' successfully
+
+2018-08-16 13:03:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AjaxPage/XML' is clicked on
+
+2018-08-16 13:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AjaxPage/XML' is clicked on
+
+2018-08-16 13:03:10 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 13:03:10 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2018-08-16 13:03:10 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-08-16 13:03:10 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\User\\git\\majoros_test\\Reports\\Basic\\20180816_130243\\1534417390658.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-16 13:03:05 - [TEST_CASE][FAILED] - Test Cases/ClickLinksAndVerifyTexts: Test Cases/ClickLinksAndVerifyTexts FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ClickLinksAndVerifyTexts" classname="Test Cases/ClickLinksAndVerifyTexts" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-08-16 13:03:10 - [TEST_CASE][FAILED] - Test Cases/ClickLinksAndVerifyTexts: Test Cases/ClickLinksAndVerifyTexts FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 13:03:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 13:03:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-16 13:03:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 13:03:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://testing-ground.scraping.pro/ajax' successfully
+
+2018-08-16 13:03:15 - [MESSAGE][PASSED] - Navigate to 'http://testing-ground.scraping.pro/ajax' successfully
+
+2018-08-16 13:03:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AjaxPage/XML' is clicked on
+
+2018-08-16 13:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AjaxPage/XML' is clicked on
+
+2018-08-16 13:03:16 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 13:03:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2018-08-16 13:03:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-08-16 13:03:16 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\User\\git\\majoros_test\\Reports\\Basic\\20180816_130243\\1534417396165.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-16 13:03:10 - [TEST_CASE][FAILED] - Test Cases/ClickLinksAndVerifyTexts: Test Cases/ClickLinksAndVerifyTexts FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TableAdvanced" classname="Test Cases/TableAdvanced" status="PASSED">
+         <system-out><![CDATA[2018-08-16 13:03:16 - [TEST_CASE][PASSED] - Test Cases/TableAdvanced: Test Cases/TableAdvanced
+
+2018-08-16 13:03:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 13:03:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-16 13:03:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 13:03:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://testing-ground.scraping.pro/table' successfully
+
+2018-08-16 13:03:21 - [MESSAGE][PASSED] - Navigate to 'http://testing-ground.scraping.pro/table' successfully
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - sumQ = 0: null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - Rows = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - sectionStart = 0: null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < Rows.size(), (i++)]): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - sectionStart = i: null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:21 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - println("sectionStart: " + sectionStart): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([i = sectionStart, i < sectionStart + 6, (i++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - println("ColsSize: " + Cols.size().toString()): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().contains("$") && j < Cols.size() - 1): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - println("ColsSize: " + Cols.size().toString()): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().contains("$") && j < Cols.size() - 1): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - println("ColsSize: " + Cols.size().toString()): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().contains("$") && j < Cols.size() - 1): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - println("Actual: " + Cols.get(j).getText()): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - sumQ += java.lang.Double.parseDouble(Cols.get(j).getText().replaceAll("[^\d.]", "")): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - println("ColsSize: " + Cols.size().toString()): null
+
+2018-08-16 13:03:22 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().contains("$") && j < Cols.size() - 1): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - println("ColsSize: " + Cols.size().toString()): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().contains("$") && j < Cols.size() - 1): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - println("Actual: " + Cols.get(j).getText()): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - sumQ += java.lang.Double.parseDouble(Cols.get(j).getText().replaceAll("[^\d.]", "")): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - println("ColsSize: " + Cols.size().toString()): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().contains("$") && j < Cols.size() - 1): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - println("ColsSize: " + Cols.size().toString()): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().contains("$") && j < Cols.size() - 1): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - println("Actual: " + Cols.get(j).getText()): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - sumQ += java.lang.Double.parseDouble(Cols.get(j).getText().replaceAll("[^\d.]", "")): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - println("ColsSize: " + Cols.size().toString()): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().contains("$") && j < Cols.size() - 1): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - Else If (j == Cols.size() - 1): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - println("Actual: " + Cols.get(j).getText() + "      " + sumQ): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - If (sumQ == java.lang.Double.parseDouble(Cols.get(j).getText().replaceAll("[^\d.]", ""))): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markPassed("Amount equals"): Amount equals
+
+2018-08-16 13:03:23 - [MESSAGE][PASSED] - Amount equals
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-16 13:03:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TableAdvanced" classname="Test Cases/TableAdvanced" status="PASSED">
+         <system-out><![CDATA[2018-08-16 13:03:23 - [TEST_CASE][PASSED] - Test Cases/TableAdvanced: Test Cases/TableAdvanced
+
+2018-08-16 13:03:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 13:03:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 13:03:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://testing-ground.scraping.pro/table' successfully
+
+2018-08-16 13:03:29 - [MESSAGE][PASSED] - Navigate to 'http://testing-ground.scraping.pro/table' successfully
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - sumQ = 0: null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Rows = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - sectionStart = 0: null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < Rows.size(), (i++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - sectionStart = i: null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:29 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < Cols.size(), (j++)]): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - If (Cols.get(j).getText().equalsIgnoreCase(year)): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - println("sectionStart: " + sectionStart): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - For ([i = sectionStart, i < sectionStart + 6, (i++)]): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - Cols = Rows.get(i).findElements(org.openqa.selenium.By.tagName("td")): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - Statement - While (Cols.get(0).getText() == quarter): null
+
+2018-08-16 13:03:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-16 13:03:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-16 13:02:45 - [TEST_SUITE][FAILED] - Basic: Test Cases/ClickLinksAndVerifyTexts FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-08-16 13:02:45 - [TEST_SUITE][FAILED] - Basic: Test Cases/ClickLinksAndVerifyTexts FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

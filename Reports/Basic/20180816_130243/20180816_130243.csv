@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic,Firefox 61.0,Basic test suite for test,2018-08-16 13:02:45,2018-08-16 13:03:30,44.935s,FAILED
+,,,,,,
+Test Cases/ShouldAssertSuccessfulAndFailedLogin,Firefox 61.0,Login succesfully or failed on the site.,2018-08-16 13:02:46,2018-08-16 13:02:54,7.940s,PASSED
+openBrowser,Firefox 61.0,,2018-08-16 13:02:46,2018-08-16 13:02:50,3.978s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-16 13:02:50,2018-08-16 13:02:52,1.695s,PASSED
+setText,Firefox 61.0,,2018-08-16 13:02:52,2018-08-16 13:02:52,0.188s,PASSED
+setText,Firefox 61.0,,2018-08-16 13:02:52,2018-08-16 13:02:52,0.118s,PASSED
+click,Firefox 61.0,,2018-08-16 13:02:52,2018-08-16 13:02:53,0.923s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(LoginPage/h3)) == ""WELCOME :)"")",Firefox 61.0,,2018-08-16 13:02:53,2018-08-16 13:02:53,0.095s,PASSED
+closeBrowser,Firefox 61.0,,2018-08-16 13:02:53,2018-08-16 13:02:54,0.476s,PASSED
+,,,,,,
+Test Cases/ShouldAssertSuccessfulAndFailedLogin,Firefox 61.0,Login succesfully or failed on the site.,2018-08-16 13:02:54,2018-08-16 13:03:00,5.782s,PASSED
+openBrowser,Firefox 61.0,,2018-08-16 13:02:54,2018-08-16 13:02:57,2.887s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-16 13:02:57,2018-08-16 13:02:58,1.669s,PASSED
+setText,Firefox 61.0,,2018-08-16 13:02:58,2018-08-16 13:02:59,0.192s,PASSED
+setText,Firefox 61.0,,2018-08-16 13:02:59,2018-08-16 13:02:59,0.124s,PASSED
+click,Firefox 61.0,,2018-08-16 13:02:59,2018-08-16 13:02:59,0.566s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(LoginPage/h3)) == ""WELCOME :)"")",Firefox 61.0,,2018-08-16 13:02:59,2018-08-16 13:02:59,0.049s,PASSED
+Statement - Else,Firefox 61.0,,2018-08-16 13:02:59,2018-08-16 13:02:59,0.001s,PASSED
+closeBrowser,Firefox 61.0,,2018-08-16 13:02:59,2018-08-16 13:03:00,0.255s,PASSED
+,,,,,,
+Test Cases/ClickLinksAndVerifyTexts,Firefox 61.0,Tests different types of links.,2018-08-16 13:03:00,2018-08-16 13:03:05,5.339s,FAILED
+openBrowser,Firefox 61.0,,2018-08-16 13:03:00,2018-08-16 13:03:03,2.823s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-16 13:03:03,2018-08-16 13:03:04,1.673s,PASSED
+click,Firefox 61.0,,2018-08-16 13:03:04,2018-08-16 13:03:05,0.298s,PASSED
+click,Firefox 61.0,,2018-08-16 13:03:05,2018-08-16 13:03:05,0.206s,FAILED
+,,,,,,
+Test Cases/ClickLinksAndVerifyTexts,Firefox 61.0,Tests different types of links.,2018-08-16 13:03:05,2018-08-16 13:03:10,5.463s,FAILED
+openBrowser,Firefox 61.0,,2018-08-16 13:03:05,2018-08-16 13:03:08,3.259s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-16 13:03:08,2018-08-16 13:03:10,1.683s,PASSED
+click,Firefox 61.0,,2018-08-16 13:03:10,2018-08-16 13:03:10,0.301s,PASSED
+click,Firefox 61.0,,2018-08-16 13:03:10,2018-08-16 13:03:10,0.196s,FAILED
+,,,,,,
+Test Cases/ClickLinksAndVerifyTexts,Firefox 61.0,Tests different types of links.,2018-08-16 13:03:10,2018-08-16 13:03:16,5.446s,FAILED
+openBrowser,Firefox 61.0,,2018-08-16 13:03:10,2018-08-16 13:03:14,3.264s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-16 13:03:14,2018-08-16 13:03:15,1.724s,PASSED
+click,Firefox 61.0,,2018-08-16 13:03:15,2018-08-16 13:03:16,0.304s,PASSED
+click,Firefox 61.0,,2018-08-16 13:03:16,2018-08-16 13:03:16,0.136s,FAILED
+,,,,,,
+Test Cases/TableAdvanced,Firefox 61.0,,2018-08-16 13:03:16,2018-08-16 13:03:23,7.144s,PASSED
+openBrowser,Firefox 61.0,,2018-08-16 13:03:16,2018-08-16 13:03:19,3.040s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-16 13:03:19,2018-08-16 13:03:21,1.681s,PASSED
+Statement - sumQ = 0,Firefox 61.0,Expected value from Table,2018-08-16 13:03:21,2018-08-16 13:03:21,0.001s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 61.0,,2018-08-16 13:03:21,2018-08-16 13:03:21,0.018s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//table/tbody""))",Firefox 61.0,,2018-08-16 13:03:21,2018-08-16 13:03:21,0.053s,PASSED
+"Statement - Rows = Table.findElements(org.openqa.selenium.By.tagName(""tr""))",Firefox 61.0,,2018-08-16 13:03:21,2018-08-16 13:03:21,0.030s,PASSED
+Statement - sectionStart = 0,Firefox 61.0,,2018-08-16 13:03:21,2018-08-16 13:03:21,0.000s,PASSED
+"Statement - For ([i = 0, i < Rows.size(), (i++)])",Firefox 61.0,,2018-08-16 13:03:21,2018-08-16 13:03:22,1.228s,PASSED
+"Statement - println(""sectionStart: "" + sectionStart)",Firefox 61.0,,2018-08-16 13:03:22,2018-08-16 13:03:22,0.004s,PASSED
+"Statement - For ([i = sectionStart, i < sectionStart + 6, (i++)])",Firefox 61.0,,2018-08-16 13:03:22,2018-08-16 13:03:23,0.326s,PASSED
+closeBrowser,Firefox 61.0,,2018-08-16 13:03:23,2018-08-16 13:03:23,0.306s,PASSED
+,,,,,,
+Test Cases/TableAdvanced,Firefox 61.0,,2018-08-16 13:03:23,2018-08-16 13:03:30,7.342s,PASSED
+openBrowser,Firefox 61.0,,2018-08-16 13:03:23,2018-08-16 13:03:27,4.078s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-16 13:03:27,2018-08-16 13:03:29,1.660s,PASSED
+Statement - sumQ = 0,Firefox 61.0,Expected value from Table,2018-08-16 13:03:29,2018-08-16 13:03:29,0.000s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 61.0,,2018-08-16 13:03:29,2018-08-16 13:03:29,0.002s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//table/tbody""))",Firefox 61.0,,2018-08-16 13:03:29,2018-08-16 13:03:29,0.016s,PASSED
+"Statement - Rows = Table.findElements(org.openqa.selenium.By.tagName(""tr""))",Firefox 61.0,,2018-08-16 13:03:29,2018-08-16 13:03:29,0.025s,PASSED
+Statement - sectionStart = 0,Firefox 61.0,,2018-08-16 13:03:29,2018-08-16 13:03:29,0.000s,PASSED
+"Statement - For ([i = 0, i < Rows.size(), (i++)])",Firefox 61.0,,2018-08-16 13:03:29,2018-08-16 13:03:30,1.126s,PASSED
+"Statement - println(""sectionStart: "" + sectionStart)",Firefox 61.0,,2018-08-16 13:03:30,2018-08-16 13:03:30,0.001s,PASSED
+"Statement - For ([i = sectionStart, i < sectionStart + 6, (i++)])",Firefox 61.0,,2018-08-16 13:03:30,2018-08-16 13:03:30,0.094s,PASSED
+closeBrowser,Firefox 61.0,,2018-08-16 13:03:30,2018-08-16 13:03:30,0.297s,PASSED

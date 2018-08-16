@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login succesfully or failed on the site.</description>
+   <name>ShouldAssertSuccessfulAndFailedLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbaec2dd-d52a-4da7-943b-a7c466bfa99b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d25397fe-11b4-408a-bde3-59683c8ca749</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>236cac32-c1ff-478d-bdbf-dd7d925bc6b4</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
