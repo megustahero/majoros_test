@@ -25,7 +25,7 @@ WebUI.navigateToUrl('http://testing-ground.scraping.pro/ajax')
 
 WebUI.click(findTestObject('AjaxPage/XML'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('AjaxPage/JSON'))
 
 WebUI.verifyTextPresent(xml_name, false, FailureHandling.STOP_ON_FAILURE)
 
